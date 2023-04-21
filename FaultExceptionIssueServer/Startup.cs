@@ -23,8 +23,8 @@ namespace FaultExceptionIssueServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddServiceModelServices().AddServiceModelMetadata();
-            services.AddSingleton<IServiceBehavior, UseRequestHeadersForMetadataAddressBehavior>(); 
-
+            services.AddSingleton<IServiceBehavior, UseRequestHeadersForMetadataAddressBehavior>();
+            services.AddScoped<IEmailService, EmailService>();
             services.AddSingleton(Configuration);
         }
 
