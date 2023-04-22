@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FaultExceptionIssueServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Info Tech, Inc.")]
+[assembly: AssemblyCompany("Jean.")]
 [assembly: AssemblyProduct("FaultExceptionIssueServer")]
-[assembly: AssemblyCopyright("Copyright © Info Tech, Inc. 2023")]
+[assembly: AssemblyCopyright("Copyright © Jean 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
